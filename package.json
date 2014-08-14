@@ -1,7 +1,7 @@
 {
-  "name": "sails-generate-backend",
-  "version": "0.11.2",
-  "description": "Generate a backend for Sails.",
+  "name": "sails-generate-backend-ember",
+  "version": "0.0.1",
+  "description": "Generate a ember-based backend for Sails.",
   "main": "lib/index.js",
   "scripts": {
     "test": "mocha"
@@ -11,9 +11,10 @@
     "generator",
     "sails",
     "generate",
-    "plugin"
+    "plugin",
+    "ember"
   ],
-  "author": "balderdashy",
+  "author": "Christopher 'Chief' Najewicz <chief@beefdisciple.com>",
   "license": "MIT",
   "dependencies": {
     "lodash": ">=2.4.x",

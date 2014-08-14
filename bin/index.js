@@ -2,17 +2,14 @@
  * Module dependencies
  */
 
-var sailsgen = require('sails-generate');
-var Generator = require('../lib');
-
+var sailsgen = require('sails-generate'),
+    Generator = require('../lib');
 
 //
 // This script exists so we can run our generator
 // directly from the command-line for convenience
 // during development.
 //
-
-
 sailsgen(Generator, {
 	rootPath: process.cwd(),
 
@@ -20,8 +17,9 @@ sailsgen(Generator, {
 	// foo: 'bar'
 
 }, function (err) {
-	if (err) throw err;
-
+	if (err) {
+      throw err;  
+    } 
 	// It worked!
 	console.log('Done.');
 });
