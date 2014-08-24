@@ -1,6 +1,6 @@
 {
   "name": "sails-generate-backend-ember",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Generate a ember-based backend for Sails.",
   "main": "lib/index.js",
   "scripts": {
